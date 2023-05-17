@@ -23,6 +23,7 @@ export class AuthService {
 
     return {
       access_token: jwt.sign(payload,'mysecretkey',{ expiresIn: 60 * 60 *24}),
+      username: user.username
     };
   }
 }
