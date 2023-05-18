@@ -1,6 +1,33 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+#Bài test vòng 2
+
+## Introduction
+This is an API service application using the NestJS framework, aimed at creating an API that allows clients to make requests to it. It includes the following key features: shared YouTube videos, login, logout, authentication, real-time video sharing,...
+
+## Prerequisites
+Tech stack: NestJS, Socket.io, Mongoose, Nginx, Linux, Node > 16.0
+
+## Installation & Configuration
+Find the directory where the source code folder is located, open the terminal.
+Enter the command 'git clone https://github.com/DylanVo28/remitano-service.git'
+Navigate to the 'remitano-service' folder, open the terminal and run the command 'npm install'.
+
+
+## Running the Application
+You can run the built version using the commands 'npm run build' and 'npm run start:prod'.
+Alternatively, you can run the development version using the command 'npm run start'.
+
+## (BE/FS) Nginx Deployment
+Due to this being an internal confidential matter, I will not share specific information about EC2. However, I can provide a general overview of the NestJS app deployment process.
+To deploy a NestJS app, follow these steps:
+Access the EC2 instance using the hostname, username, and password provided.
+Once logged in, install Node.js, npm, Nginx, and PM2.
+Clone the project from the repository https://github.com/DylanVo28/remitano-service.git.
+Navigate to the project's remitano-service folder.
+Build the project and add it to PM2 for process management.
+Access the /etc/nginx/default.config file and configure the domain to point to the port where your app is running (default port is 1805).
+
+## Usage
+You can test the controllers using Postman or unit test files such as abc.controller.spec.ts
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
