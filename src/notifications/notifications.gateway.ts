@@ -11,7 +11,8 @@ import { Namespace, Server, Socket } from "socket.io";
 import { Logger } from "@nestjs/common";
 
 @WebSocketGateway({
-  namespace: 'notifications'
+  namespace: 'notifications',
+  cors: true
 })
 export class NotificationsGateway implements OnGatewayInit,OnGatewayConnection,OnGatewayDisconnect{
   private readonly logger= new Logger(NotificationsGateway.name)
