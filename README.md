@@ -27,7 +27,7 @@ Build the project and add it to PM2 for process management.
 Access the /etc/nginx/default.config file and configure the domain to point to the port where your app is running (default port is 1805).
 
 ## Usage
-You can test the controllers using Postman or unit test files such as abc.controller.spec.ts
+You can test the controllers using Postman or unit test files such as abc.controller.spec.ts or ip address: https://103.168.51.86
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
