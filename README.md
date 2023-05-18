@@ -1,4 +1,4 @@
-#Bài test vòng 2
+#Round 2 test
 
 ## Introduction
 This is an API service application using the NestJS framework, aimed at creating an API that allows clients to make requests to it. It includes the following key features: shared YouTube videos, login, logout, authentication, real-time video sharing,...
